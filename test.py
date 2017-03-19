@@ -9,3 +9,10 @@ for i in range(1, 18):
 	else:	
 		Persons.append(q)
 
+print("\n")
+
+#Print Persons Age
+for i in Persons:
+	print("Person "+str(P1)+" is %d years old." % i)
+	P1 += 1
+
