@@ -16,3 +16,7 @@ for i in Persons:
 	print("Person "+str(P1)+" is %d years old." % i)
 	P1 += 1
 
+print("\n")
+
+#Show X
+print("X is equal to "+str(Persons[16]))
