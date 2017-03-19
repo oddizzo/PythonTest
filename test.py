@@ -25,3 +25,15 @@ print("\n")
 
 #Sort queue from oldest to youngest
 Persons.sort(reverse=True)
+
+P2 = 1
+
+#Entry rules
+for i in Persons:
+	if i >= 90:
+		print("Person "+str(P2)+" is %d years old, is not allowed entry." % i)
+	elif i < 18:	
+		print("Person "+str(P2)+" is %d years old, is not allowed entry." % i)
+	else:
+		print("Person "+str(P2)+" is %d years old, is allowed entry." % i)	
+	P2 += 1
