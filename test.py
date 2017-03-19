@@ -20,3 +20,8 @@ print("\n")
 
 #Show X
 print("X is equal to "+str(Persons[16]))
+
+print("\n")
+
+#Sort queue from oldest to youngest
+Persons.sort(reverse=True)
